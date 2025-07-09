@@ -42,11 +42,11 @@ Một script monitoring hệ thống mạnh mẽ và toàn diện, tương thíc
 
 ```bash
 # 1. Download scripts
-wget https://raw.githubusercontent.com/your-repo/system-monitor.sh
+wget https://raw.githubusercontent.com/your-repo/system-monitorX.sh
 wget https://raw.githubusercontent.com/your-repo/install.sh
 
 # 2. Make executable
-chmod +x system-monitor.sh install.sh
+chmod +x system-monitorX.sh install.sh
 
 # 3. Run installer
 ./install.sh
@@ -66,7 +66,7 @@ sudo pacman -S bc curl wget libnotify
 mkdir -p ~/.local/bin ~/.config ~/.local/share
 
 # 3. Copy script
-cp system-monitor.sh ~/.local/bin/system-monitor
+cp system-monitorX.sh ~/.local/bin/system-monitor
 chmod +x ~/.local/bin/system-monitor
 
 # 4. Add to PATH
@@ -277,7 +277,7 @@ DEBUG_MODE=true
 Update script:
 ```bash
 # Download latest version
-wget -O ~/.local/bin/system-monitor https://raw.githubusercontent.com/your-repo/system-monitor.sh
+wget -O ~/.local/bin/system-monitor https://raw.githubusercontent.com/your-repo/system-monitorX.sh
 chmod +x ~/.local/bin/system-monitor
 
 # Reset config if needed

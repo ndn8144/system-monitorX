@@ -76,10 +76,10 @@ install_script() {
     echo -e "\n${YELLOW}Installing system monitor script...${NC}"
     
     # Check if script exists in current directory
-    if [[ -f "./system-monitor.sh" ]]; then
-        cp "./system-monitor.sh" "$INSTALL_DIR/$SCRIPT_NAME"
+    if [[ -f "./system-monitorX.sh" ]]; then
+        cp "./system-monitorX.sh" "$INSTALL_DIR/$SCRIPT_NAME"
     else
-        echo -e "${ERROR} system-monitor.sh not found in current directory"
+        echo -e "${ERROR} system-monitorX.sh not found in current directory"
         echo "Please ensure the script file is in the same directory as this installer"
         exit 1
     fi
