@@ -42,8 +42,8 @@ Một script monitoring hệ thống mạnh mẽ và toàn diện, tương thíc
 
 ```bash
 # 1. Download scripts
-wget https://raw.githubusercontent.com/your-repo/system-monitorX.sh
-wget https://raw.githubusercontent.com/your-repo/install.sh
+wget https://raw.githubusercontent.com/ndn8144/system-monitorX.sh
+wget https://raw.githubusercontent.com/ndn8144/install.sh
 
 # 2. Make executable
 chmod +x system-monitorX.sh install.sh
@@ -277,7 +277,7 @@ DEBUG_MODE=true
 Update script:
 ```bash
 # Download latest version
-wget -O ~/.local/bin/system-monitor https://raw.githubusercontent.com/your-repo/system-monitorX.sh
+wget -O ~/.local/bin/system-monitor https://raw.githubusercontent.com/ndn8144/system-monitorX.sh
 chmod +x ~/.local/bin/system-monitor
 
 # Reset config if needed
